@@ -20,7 +20,6 @@ typedef struct {
 
 Dados interface() { 
 	Dados d;
-	
 	for(int i = 0; i < N; i++) {
 		printf("\nUsuario %d\n", i+1);
 		printf("Digite um nome: ");
@@ -42,7 +41,6 @@ void escreva(Dados d) {
 		printf("Idade Digitada %d\n", d.idade[i]);
 		printf("Altura Digitada: %.2f\n", d.altura[i]);
 	}	
-	
 }
 
 int main() {
