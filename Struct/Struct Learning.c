@@ -72,8 +72,7 @@ int main() {
 		scanf(" %[^\n]s", p.residencia.cidade); 
 		
 		cadrasto[cont++] = p;
-		
-	
+
 	}
 	
 	//ordenar o vetor
